@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="QA-Automation.dll" fullname="C:\Users\Yousuf Traders\OneDrive\Desktop\QA-Automation\bin\Debug\net10.0\QA-Automation.dll" testcasecount="1" result="Passed" start-time="2026-10-30T04:30:10.0309976Z" end-time="2026-10-30T04:30:29.6981511Z" duration="19.667052" total="1" initiated="1" passed="1" failed="0" warnings="0" completed="1" skipped="0" inconclusive="0" asserts="3" random-seed="2039962320">
+  <command-line><![CDATA["C:\Users\Yousuf Traders\OneDrive\Desktop\QA-Automation\bin\Debug\net10.0\QA-Automation.dll"]]></command-line>
+  <filter />
+  <test-suite type="Assembly" id="1002" name="QA-Automation.dll" fullname="C:\Users\Yousuf Traders\OneDrive\Desktop\QA-Automation\bin\Debug\net10.0\QA-Automation.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-30T04:30:10.0309976Z" end-time="2026-10-30T04:30:29.6981511Z" duration="19.667052" total="1" initiated="1" passed="1" failed="0" warnings="0" completed="1" skipped="0" inconclusive="0" asserts="3">
+    <environment framework-version="5.0.0.0" clr-version="10.0.13" os-version="Microsoft Windows 10.0.19045" platform="Win32NT" cwd="C:\Users\Yousuf Traders\OneDrive\Desktop\QA-Automation" machine-name="DESKTOP-PGHT0RJ" user="Yousuf Traders" user-domain="DESKTOP-PGHT0RJ" culture="en-GB" uiculture="en-GB" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="C:\Users\Yousuf Traders\OneDrive\Desktop\QA-Automation" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="8952" />
+      <property name="_APPDOMAIN" value="QA-Automation" />
+    </properties>
+    <test-suite type="TestFixture" id="1000" name="LoginTest" fullname="LoginTest" classname="LoginTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-30T04:30:10.0543596Z" end-time="2026-10-30T04:30:29.6942077Z" duration="19.639849" total="1" initiated="1" passed="1" failed="0" warnings="0" completed="1" skipped="0" inconclusive="0" asserts="3">
+      <test-case id="1001" name="LoginFromExcel" fullname="LoginTest.LoginFromExcel" methodname="LoginFromExcel" classname="LoginTest" runstate="Runnable" seed="1202582006" result="Passed" start-time="2026-10-30T04:30:10.0738716Z" end-time="2026-10-30T04:30:29.6857208Z" duration="19.612104" asserts="3">
+        <output><![CDATA[Tried user: standard_user — OK
+Tried user: problem_user — OK
+Tried user: locked_out_user — OK
+]]></output>
+      </test-case>
+    </test-suite>
+  </test-suite>
+</test-run>
